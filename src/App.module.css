@@ -2,14 +2,14 @@
   padding: 1.5em;
   height: 6em;
   will-change: filter;
-}
 
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
+  &:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
 
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+    &.react {
+      filter: drop-shadow(0 0 2em #61dafbaa);
+    }
+  }
 }
 
 @keyframes logo-spin {
@@ -23,8 +23,10 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  a:nth-of-type(2) {
+    & .logo {
+      animation: logo-spin infinite 20s linear;
+    }
   }
 }
 
