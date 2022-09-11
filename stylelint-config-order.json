@@ -71,8 +71,8 @@
           ]
         },
         {
-          "groupName": "placeItems",
-          "properties": ["place-items"]
+          "groupName": "placeContent",
+          "properties": ["place-content", "place-items", "place-self"]
         },
         {
           "groupName": "alignContent",
@@ -290,6 +290,10 @@
         {
           "groupName": "svg",
           "properties": ["r", "fill", "stroke", "vector-effect"]
+        },
+        {
+          "groupName": "objectFit",
+          "properties": ["object-fit"]
         },
         {
           "groupName": "verticalAlignment",
