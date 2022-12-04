@@ -10,7 +10,7 @@
     "format": "prettier . --cache",
     "format:fix": "yarn format --write",
     "format:check": "yarn format --check",
-    "lint": "eslint . --cache",
+    "lint": "eslint . --cache --max-warnings 0",
     "lint:fix": "yarn lint --fix",
     "lint:check": "yarn lint",
     "lint:css": "stylelint '**/*.css' --cache --max-warnings 0",
@@ -51,7 +51,7 @@
     "vite": "^3.2.4"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": "eslint --cache --fix",
+    "*.{js,jsx,ts,tsx}": "eslint --cache --fix --max-warnings 0",
     "*.css": "stylelint --cache --fix --max-warnings 0",
     "*.{js,jsx,ts,tsx,css,htm,html,md}": "prettier --cache --write"
   }
