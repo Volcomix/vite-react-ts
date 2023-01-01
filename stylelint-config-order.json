@@ -368,6 +368,10 @@
           "properties": ["pointer-events"]
         },
         {
+          "groupName": "userSelect",
+          "properties": ["user-select"]
+        },
+        {
           "groupName": "willChange",
           "properties": ["will-change"]
         }
