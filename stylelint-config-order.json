@@ -368,6 +368,10 @@
           "properties": ["pointer-events"]
         },
         {
+          "groupName": "touchAction",
+          "properties": ["touch-action"]
+        },
+        {
           "groupName": "userSelect",
           "properties": ["user-select"]
         },
