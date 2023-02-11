@@ -1,9 +1,5 @@
 {
-  "extends": [
-    "stylelint-config-standard",
-    "stylelint-config-prettier",
-    "./stylelint-config-order"
-  ],
+  "extends": ["stylelint-config-standard", "./stylelint-config-order"],
   "rules": {
     "selector-class-pattern": "^[a-z][a-zA-Z0-9]+$",
     "property-no-unknown": [true, { "ignoreProperties": ["composes"] }],
