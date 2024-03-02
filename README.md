@@ -18,8 +18,8 @@ Use this repository as a [GitHub template](https://github.com/Volcomix/vite-reac
 npx degit volcomix/vite-react-ts my-project
 cd my-project
 
-yarn
-yarn dev
+pnpm install
+pnpm dev
 ```
 
 ## VSCode integration
